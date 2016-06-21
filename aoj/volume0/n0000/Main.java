@@ -1,5 +1,3 @@
-package aoj.volume0.n0000;
-
 public class Main {
 
     public static void main(String[] a) {
