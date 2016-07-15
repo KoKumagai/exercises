@@ -5,11 +5,11 @@ public class Solution {
         int singleNum = 0;
         for (int i = 0; i < nums.length; i++) {
 
-		        singleNum ^= nums[i];
+            singleNum ^= nums[i];
 
         }
 
-	      return singleNum;
+        return singleNum;
 
     }
 
