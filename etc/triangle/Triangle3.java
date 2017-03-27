@@ -1,4 +1,4 @@
-public class Triangle1 {
+public class Triangle3 {
 
     public static void main(String[] args) {
 
@@ -6,9 +6,11 @@ public class Triangle1 {
 
         for (int i = 1; i <= SIZE; i++) {
 
-            for (int j = 1; j <= i; j++) {
+            for (int j = SIZE; j >= 1; j--) {
 
-                System.out.print("*");
+                if (j >= i) {
+                    System.out.print("*");
+                }
 
             }
 
@@ -22,10 +24,10 @@ public class Triangle1 {
 
 /*
 --- result ---
-*
-**
-***
-****
 *****
+****
+***
+**
+*
 --------------
 */
